@@ -103,11 +103,31 @@ main {
   padding: 20px 50px;
   border-radius: 10px;
   font-size: 24px;
+  transition: background 1s;
+}
+
+.btn:active {
+  background: #1a4031;
 }
 
 .btn img {
   height: auto;
   width: 20px;
+}
+
+footer {
+  background: hsl(228, 12%, 48%);
+  padding: 5px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  transition: color 1s;
+}
+
+footer a:hover {
+  color: #1a4031;
 }
 
 
