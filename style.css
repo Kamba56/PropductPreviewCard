@@ -35,7 +35,7 @@ button {
   font-weight: 700;
   font-size: 40px;
   line-height: 36px;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   font-family: 'Fraunces', serif;
 }
 
@@ -135,8 +135,7 @@ footer a:hover {
   color: #1a4031;
 }
 
-
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   .grid {
     width: 50%;
   }
